@@ -14,5 +14,5 @@
 
 def speak_to_grandma(string)
   str_arr = string.chars
-  str_arr.all? { |char| char.downcase  }
+  str_arr.all? { |char| char.upcase  }
 end 
