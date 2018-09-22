@@ -13,6 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(string)
+  return 'I LOVE YOU TOO PUMPKIN!' if string == 'I LOVE YOU GRANDMA!'
   str_arr = string.chars
   return 'HUH?! SPEAK UP, SONNY!' if str_arr.all? { |char| char.upcase  }
 end 
