@@ -14,8 +14,9 @@
 
 def speak_to_grandma(string)
   if string == 'I LOVE YOU GRANDMA!'
-    'I LOVE YOU TOO PUMPKIN!'
-    elsif string != string.upcase
-  str_arr = string.chars
-  return 'HUH?! SPEAK UP, SONNY!' if str_arr.all? { |char| char.upcase  }
+    return 'I LOVE YOU TOO PUMPKIN!'
+  elsif string != string.upcase
+    return 'HUH?! SPEAK UP, SONNY!' 
+  else 
+  end 
 end 
