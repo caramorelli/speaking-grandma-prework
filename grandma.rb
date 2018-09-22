@@ -13,5 +13,6 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(string)
-  str_arr = string.split(' ')
+  str_arr = string.chars
+  str_arr.all? { |char| char.downcase  }
 end 
